@@ -1,0 +1,42 @@
+*{
+	padding :0;
+	margin:0;
+}
+
+body{
+}
+
+.out{
+	height :480px;
+	margin :10px;
+	background-color: grey ;
+	box-shadow: 3px 3px 1px black;
+
+}
+
+#msgs{
+	background-color: grey;
+	height :100%;
+	overflow-y: scroll ;
+}
+
+.in{
+	height: 98px ;
+	background-color: grey ;
+	display: flex ;
+	box-shadow: 3px 3px 1px black;
+	margin :10px;
+}
+
+#msg{
+	flex :5;
+	height :80px;
+	margin :10px;
+	background-color: white;
+}
+
+#ok{
+	height: 80px;
+	flex:1;
+	margin :10px;
+}
