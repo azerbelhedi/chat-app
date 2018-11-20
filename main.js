@@ -26,7 +26,7 @@ function gotData(data){
     {
         var theName=list[keys[i]].name;        
         var theText=list[keys[i]].text;
-        document.getElementById("msgs").innerHTML+=theName+" : "+theText+"<br>";
+        document.getElementById("msgs").innerHTML = theName+" : "+theText+"<br>" + document.getElementById("msgs").innerHTML ;
 	}
 }
 
